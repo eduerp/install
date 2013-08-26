@@ -11,7 +11,7 @@ eduerp.enable is a simple shell script that runs drush commands to establish a d
 **Requirements**  
 1. Web server - Apache or alternative  
 2. Database server - MySQL 4.1 or higher  
-3. PHP - Drupal 6: PHP 4.4.0 or higher (5.3 recommended - Requires GD extension for image processing and SOAP for Zimbra)  
+3. PHP - PHP 4.4.0 or higher (5.3 recommended - Requires GD extension for image processing and SOAP for Zimbra)  
 4. Drush (preferably from PEAR channel - pear.drush.org)  
 5. Git 
 
