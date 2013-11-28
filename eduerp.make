@@ -24,7 +24,94 @@ projects[] = drupal
   
   
 ; Modules
+; --------1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+; ----------------
+; EduERP makefile
+; ----------------
+;  
+; Core version
+; ------------
+; Core version of Drupal that projects should be compatible with.
+; 
+  
+core = 6.x
+  
+; API version
+; ------------
+; Drush Make API version. This version of drush make uses API version `2`.
+;
+ 
+api = 2
+  
+; Core project
+; ------------  
+; Drupal 6.x core:
+projects[] = drupal
+  
+  
+; Modules
 ; --------
+projects[adminrole][version] = 1.3
+projects[adminrole][type] = "module"
+projects[admin_menu][version] = 1.8
+projects[admin_menu][type] = "module"
+projects[cck][version] = 2.9
+projects[cck][type] = "module"
+projects[filefield][version] = 3.10
+projects[filefield][type] = "module"
+projects[imagefield][version] = 3.10
+projects[imagefield][type] = "module"
+projects[content_profile][version] = 1.0
+projects[content_profile][type] = "module"
+projects[date][version] = 2.9
+projects[date][type] = "module"
+projects[devel][version] = 1.27
+projects[devel][type] = "module"
+projects[features][version] = 1.2
+
 projects[adminrole][version] = 1.3
 projects[adminrole][type] = "module"
 projects[admin_menu][version] = 1.8
@@ -123,4 +210,4 @@ libraries[wkhtmltopdf][download][type] = "file"
 libraries[wkhtmltopdf][download][url] = "http://wkhtmltopdf.googlecode.com/files/wkhtmltopdf-0.11.0_rc1-static-i386.tar.bz2"
 libraries[tcpdf][type] = "libraries"
 libraries[tcpdf][download][type] = "file"
-libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_6_0_048.zip"
+libraries[tcpdf][download][url] = "http://downloads.sourceforge.net/project/tcpdf/tcpdf_6_0_049.zip"
