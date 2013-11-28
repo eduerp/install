@@ -19,42 +19,6 @@ api = 2
 ; Core project
 ; ------------  
 ; Drupal 6.x core:
-
-projects[] = drupal
-  
-  
-; Modules
-; --------1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-; ----------------
-; EduERP makefile
-; ----------------
-;  
-; Core version
-; ------------
-; Core version of Drupal that projects should be compatible with.
-; 
-  
-core = 6.x
-  
-; API version
-; ------------
-; Drush Make API version. This version of drush make uses API version `2`.
-;
- 
-api = 2
-  
-; Core project
-; ------------  
-; Drupal 6.x core:
 projects[] = drupal
   
   
