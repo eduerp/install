@@ -98,6 +98,8 @@ drush vset --yes --exact uc_cust_view_order_invoices 1
 #In http://domain.edu.ng/admin/settings/date-time/formats
 #"Medium date format" must be like: 28. November 2012 - 15:46
 drush vset --yes --exact date_format_medium "j. F Y - G:i"
+#"Short date format" must be like: 2013-11-09 16:00
+drush vset --yes --exact date_format_short "Y-m-d H:i"
 
 #In http://domain.edu.ng/admin/content/node-type/profile/profile
 #Had to do this (even though most of these seemed to be in exported CCK, there seems to be some sort of Drupal bug):
