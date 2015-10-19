@@ -26,4 +26,4 @@ eduerp.enable is a simple shell script that runs drush commands to establish a d
 + Go back to webroot, make eduerp.enable executable and run it  
           <pre><code>chmod a+x eduerp.enable</code></pre> 
           <pre><code>sh eduerp.enable</code></pre>
-+ Follow next steps for [Post-Install Config](https://github.com/eduerp/eduerp/wiki/EduERP-Post-Install "Post-Install config")
++ Follow next steps for [Post-Installation-Configuration](https://github.com/eduerp/eduerp/wiki/EduERP-Post-Install "Post-Installation-Configuration")
